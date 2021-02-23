@@ -49,7 +49,6 @@ var detalleExperiencia5 = document.getElementById("detalle-experiencia-5");
 var detalleExperiencia6 = document.getElementById("detalle-experiencia-6");
 var grupoDistintasHabilidades1 = document.getElementById("grupo-distintas-habilidades-1");
 var grupoDistintasHabilidades2 = document.getElementById("grupo-distintas-habilidades-2");
-var estrellasGirando = document.getElementById("contenedor-distintas-habilidades");
 var enlaceRepositorio = document.getElementById("enlace-repositorio");
 var aficion1 = document.getElementById("aficion1");
 var aficion2 = document.getElementById("aficion2");
@@ -171,10 +170,6 @@ function myFunction() {
 
   if(window.pageYOffset >= 3200){
     grupoDistintasHabilidades2.classList.add("aparecer-por-derecha");
-  }
-
-  if(window.pageYOffset >= 3900){
-    estrellasGirando.classList.add("estrellas-girando");
   }
 
   if(window.pageYOffset >= 4000){
