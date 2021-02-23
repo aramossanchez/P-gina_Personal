@@ -2,7 +2,7 @@
 
 _Carta de presentación y CV ampliado_
 
-_http://www.armandoramossanchez.com_
+[armandoramossanchez.com](http://www.armandoramossanchez.com)
 
 ## -TECNOLOGÍAS UTILIZADAS
 
