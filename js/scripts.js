@@ -30,6 +30,7 @@ var contenedorPresentacionExperiencia = document.getElementById("contenedor-pres
 var contenedorPresentacionHabilidades = document.getElementById("contenedor-presentacion-habilidades");
 var contenedorPresentacionProyectos = document.getElementById("contenedor-presentacion-proyectos");
 var contenedorPresentacionPersonal = document.getElementById("contenedor-presentacion-personal");
+var estudio0 = document.getElementById("estudio0");
 var estudio1 = document.getElementById("estudio1");
 var estudio2 = document.getElementById("estudio2");
 var estudio3 = document.getElementById("estudio3");
@@ -89,26 +90,29 @@ function myFunction() {
   }
 
   if(window.pageYOffset >= 950){
+    estudio0.classList.add("aparecer-por-izquierda");
+  }
+  if(window.pageYOffset >= 1050){
     estudio1.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 1100){
+  if(window.pageYOffset >= 1200){
     estudio2.classList.add("aparecer-por-izquierda");
   }
   
-  if(window.pageYOffset >= 1300){
+  if(window.pageYOffset >= 1400){
     estudio3.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 1500){
+  if(window.pageYOffset >= 1600){
     estudio4.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 1600){
+  if(window.pageYOffset >= 1800){
     estudio5.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 1800){
+  if(window.pageYOffset >= 1850){
     contenedorPresentacionExperiencia.classList.add("aparecer-vertical");
   }
 
@@ -164,39 +168,39 @@ function myFunction() {
     contenedorPresentacionHabilidades.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 3200){
+  if(window.pageYOffset >= 3300){
     grupoDistintasHabilidades1.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 3200){
+  if(window.pageYOffset >= 3300){
     grupoDistintasHabilidades2.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 4000){
+  if(window.pageYOffset >= 4200){
     contenedorPresentacionProyectos.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 4500){
+  if(window.pageYOffset >= 5500){
     enlaceRepositorio.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 4700){
+  if(window.pageYOffset >= 5800){
     contenedorPresentacionPersonal.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 4850){
+  if(window.pageYOffset >= 6000){
     aficion1.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 5100){
+  if(window.pageYOffset >= 6200){
     aficion2.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 5400){
+  if(window.pageYOffset >= 6400){
     aficion3.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 5800){
+  if(window.pageYOffset >= 6700){
     aficion4.classList.add("aparecer-por-derecha");
   }
 
