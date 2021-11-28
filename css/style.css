@@ -2497,28 +2497,6 @@ footer hr{
     transition: 0.5s;
     margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .imagen-nombre-visible{
     opacity: 1;
     transition: 1s;
@@ -2583,4 +2561,33 @@ footer hr{
     top: -15px;
     transform: scaleX(1);
 }
+}
+
+/*SCROLL DE PAGINA*/
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: #293340;
+}
+
+body::-webkit-scrollbar:vertical {
+    width:0.5em;
+}
+
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+    display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+    height: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #F25D50;
+    border-radius: 1em;
+    border: 0.1em solid #F25D50;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 0.5em;  
 }
