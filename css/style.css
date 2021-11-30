@@ -580,13 +580,14 @@ body{
 
 .proyecto-individual img{
     width: 100%;
-    height: 100%;
+    height: 18em;
     opacity: 1;
     transition: 0.5s;
 }
 
 .boton-proyecto img{
     width:50px;
+    height:50px;
     border-radius: 5px;
 }
 
@@ -1439,13 +1440,14 @@ footer hr{
 
 .proyecto-individual img{
     width: 100%;
-    height: 100%;
+    height: 15em;
     opacity: 1;
     transition: 0.5s;
 }
 
 .boton-proyecto img{
-    width:80px;
+    width:40px;
+    height:40px;
     border-radius: 5px;
 }
 
@@ -2271,13 +2273,14 @@ footer hr{
 
 .proyecto-individual img{
     width: 100%;
-    height: 100%;
+    height: 18em;
     opacity: 1;
     transition: 0.5s;
 }
 
 .boton-proyecto img{
     width:50px;
+    height:50px;
     border-radius: 5px;
 }
 
