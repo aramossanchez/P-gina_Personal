@@ -42,12 +42,14 @@ var empresa3 = document.getElementById("empresa3");
 var empresa4 = document.getElementById("empresa4");
 var empresa5 = document.getElementById("empresa5");
 var empresa6 = document.getElementById("empresa6");
+var empresa7 = document.getElementById("empresa7");
 var detalleExperiencia1 = document.getElementById("detalle-experiencia-1");
 var detalleExperiencia2 = document.getElementById("detalle-experiencia-2");
 var detalleExperiencia3 = document.getElementById("detalle-experiencia-3");
 var detalleExperiencia4 = document.getElementById("detalle-experiencia-4");
 var detalleExperiencia5 = document.getElementById("detalle-experiencia-5");
 var detalleExperiencia6 = document.getElementById("detalle-experiencia-6");
+var detalleExperiencia7 = document.getElementById("detalle-experiencia-7");
 var grupoDistintasHabilidades1 = document.getElementById("grupo-distintas-habilidades-1");
 var grupoDistintasHabilidades2 = document.getElementById("grupo-distintas-habilidades-2");
 var enlaceRepositorio = document.getElementById("enlace-repositorio");
@@ -71,10 +73,6 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
     perfil.classList.remove("empujado");
-  }
-
-  if(window.pageYOffset >= 0){
-    console.log(window.pageYOffset)
   }
 
   if(window.pageYOffset >= 100){
@@ -132,75 +130,83 @@ function myFunction() {
     detalleExperiencia2.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 2300){
+  if(window.pageYOffset >= 2500){
     empresa3.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 2300){
+  if(window.pageYOffset >= 2500){
     detalleExperiencia3.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 2450){
+  if(window.pageYOffset >= 2750){
     empresa4.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 2450){
+  if(window.pageYOffset >= 2750){
     detalleExperiencia4.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 2600){
+  if(window.pageYOffset >= 2900){
     empresa5.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 2600){
+  if(window.pageYOffset >= 2900){
     detalleExperiencia5.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 2850){
+  if(window.pageYOffset >=3250){
     empresa6.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 2850){
+  if(window.pageYOffset >=3250){
     detalleExperiencia6.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 3000){
+  if(window.pageYOffset >= 3550){
+    empresa7.classList.add("aparecer-por-izquierda");
+  }
+
+  if(window.pageYOffset >= 3550){
+    detalleExperiencia7.classList.add("aparecer-por-derecha");
+  }
+
+  if(window.pageYOffset >= 3700){
     contenedorPresentacionHabilidades.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 3300){
+  if(window.pageYOffset >= 3900){
     grupoDistintasHabilidades1.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 3300){
+  if(window.pageYOffset >= 3900){
     grupoDistintasHabilidades2.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 4200){
+  if(window.pageYOffset >= 4600){
     contenedorPresentacionProyectos.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 5500){
+  if(window.pageYOffset >= 6000){
     enlaceRepositorio.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 5800){
+  if(window.pageYOffset >= 6100){
     contenedorPresentacionPersonal.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 6000){
+  if(window.pageYOffset >= 6200){
     aficion1.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 6200){
+  if(window.pageYOffset >= 6400){
     aficion2.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 6400){
+  if(window.pageYOffset >= 6600){
     aficion3.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 6700){
+  if(window.pageYOffset >= 7000){
     aficion4.classList.add("aparecer-por-derecha");
   }
 

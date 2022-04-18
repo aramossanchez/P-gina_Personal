@@ -408,6 +408,7 @@ body{
     position: relative;
     transition: 0.5s;
     right: -5000px;
+    line-height: 1.25em;
 }
 
 .experiencia-individual dl {
