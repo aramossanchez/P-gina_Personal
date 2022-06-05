@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
 });
 
-// Get the navbar
+
 var navbar = document.getElementById("menu");
 var perfil = document.getElementById("perfil");
 var imagenPrincipal = document.getElementById("imagen-principal");
@@ -43,6 +43,7 @@ var empresa4 = document.getElementById("empresa4");
 var empresa5 = document.getElementById("empresa5");
 var empresa6 = document.getElementById("empresa6");
 var empresa7 = document.getElementById("empresa7");
+var empresa8 = document.getElementById("empresa8");
 var detalleExperiencia1 = document.getElementById("detalle-experiencia-1");
 var detalleExperiencia2 = document.getElementById("detalle-experiencia-2");
 var detalleExperiencia3 = document.getElementById("detalle-experiencia-3");
@@ -50,6 +51,7 @@ var detalleExperiencia4 = document.getElementById("detalle-experiencia-4");
 var detalleExperiencia5 = document.getElementById("detalle-experiencia-5");
 var detalleExperiencia6 = document.getElementById("detalle-experiencia-6");
 var detalleExperiencia7 = document.getElementById("detalle-experiencia-7");
+var detalleExperiencia8 = document.getElementById("detalle-experiencia-8");
 var grupoDistintasHabilidades1 = document.getElementById("grupo-distintas-habilidades-1");
 var grupoDistintasHabilidades2 = document.getElementById("grupo-distintas-habilidades-2");
 var enlaceRepositorio = document.getElementById("enlace-repositorio");
@@ -170,43 +172,51 @@ function myFunction() {
     detalleExperiencia7.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 3700){
+  if(window.pageYOffset >= 3625){
+    empresa8.classList.add("aparecer-por-izquierda");
+  }
+
+  if(window.pageYOffset >= 3625){
+    detalleExperiencia8.classList.add("aparecer-por-derecha");
+  }
+
+  if(window.pageYOffset >= 3900){
     contenedorPresentacionHabilidades.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 3900){
+  if(window.pageYOffset >= 4200){
     grupoDistintasHabilidades1.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 3900){
+  if(window.pageYOffset >= 4200){
     grupoDistintasHabilidades2.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 4600){
+  if(window.pageYOffset >= 5100){
     contenedorPresentacionProyectos.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 6000){
+  if(window.pageYOffset >= 6400){
     enlaceRepositorio.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 6100){
+  if(window.pageYOffset >= 6600){
     contenedorPresentacionPersonal.classList.add("aparecer-vertical");
   }
 
-  if(window.pageYOffset >= 6200){
+  if(window.pageYOffset >= 6700){
     aficion1.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 6400){
+  if(window.pageYOffset >= 6900){
     aficion2.classList.add("aparecer-por-derecha");
   }
 
-  if(window.pageYOffset >= 6600){
+  if(window.pageYOffset >= 7100){
     aficion3.classList.add("aparecer-por-izquierda");
   }
 
-  if(window.pageYOffset >= 7000){
+  if(window.pageYOffset >= 7500){
     aficion4.classList.add("aparecer-por-derecha");
   }
 
